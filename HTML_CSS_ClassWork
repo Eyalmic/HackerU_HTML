@@ -1,0 +1,65 @@
+<html>
+<head>
+<style>
+*
+{
+font-family:tahoma;
+}
+input
+{
+  color:MediumSeaGreen;
+}
+
+span
+{
+  color: MediumSeaGreen;
+}
+#fairdinkum
+{
+  color:tomato;
+}
+</style>
+
+<title> Test 2 </title>
+</head>
+<body>
+<form>
+<input type="text" name="userName" placeholder="First name" required />
+<input type="text" name="surName" placeholder="Surname" required />
+<input type="text" name="userAge" placeholder="Age" min="0" required />
+
+<p>
+Is it True?
+</p>
+<input type="radio" name="q1" value="1"><span>yes</span><br> 
+<input type="radio" name="q1" value="1">no<br> 
+<input type="radio" name="q1" value="1">maybe<br> 
+<input type="radio" name="q1" value="1">a+b correct<br> 
+
+<p>
+Are you sure?
+</p>
+<input type="radio" name="q1" value="1">probably?<br> 
+<input type="radio" name="q1" value="1">is it a trick question?<br> 
+<input type="radio" name="q1" value="1">Tot's!<br> 
+<input type="radio" name="q1" value="1">Nah fair dinkum mate<br> 
+
+<p>
+What is the answer to Life, The universe, and Everything?</p>
+<input type="radio" name="q1" value="1">1/137<br> 
+<input type="radio" name="q1" value="1">tomato<br> 
+<input type="radio" name="q1" value="1">potato<br> 
+<input type="radio" name="q1" value="1">42<br> 
+
+<p>
+Is there cake?</p>
+<input type="radio" name="q1" value="1">There is no cake<br> 
+<input type="radio" name="q1" value="1">Strawberry<br> 
+<input type="radio" name="q1" value="1">Chocolate<br> 
+<input type="radio" name="q1" value="1">There is no spoon<br> 
+
+  <input type="submit" id = "fairdinkum" value="שגר ושכח">
+
+</form>
+</body>
+</html>
